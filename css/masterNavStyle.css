@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	height: 700px;
+	background-image: url('blogheader.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#nav ul{
+	height: 40px;
+	width: 100%;
+}
+#nav ul li{
+	background-color: black;
+	margin-left: 2px;
+	width: 16.5%;
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	text-align:center;
+	border-radius: 10px;
+	opacity: .8;
+
+}
+#nav ul li a{
+	text-decoration: none;
+	display: block;
+}
+#nav ul li a:hover{
+	color: white;
+}
+
+
+#nav ul li:hover{
+	opacity: 1;
+	font-size: 20px;
+}

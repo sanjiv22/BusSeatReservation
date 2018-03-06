@@ -1,0 +1,78 @@
+
+
+*,body{
+	margin:0px;
+	padding: 0px;
+
+}
+header{
+	height:678px;
+	background-image:url("homebackground.jpg");
+	/*background:url('background.jpg') no-repeat center center;*/
+	background-size: cover;
+	width: 100%;
+}
+header img{
+	height: 60px;
+	width: 90px;
+	position: absolute;
+	left: 40px;
+}
+nav ul{
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	left: 400px;
+}
+nav ul li{
+	/*background-color: black;*/
+	margin-left: 2px;
+	width: 10%;
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	text-align:center;
+	/*border-radius: 10px;*/
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 20px;
+	font-family: Arial;
+}
+nav ul li a:hover{
+	color: blue;
+}
+#Services{
+	background-color: #CAEBF2;
+	height: 678px;
+}
+#About{
+	background-color: #A9A9A9;
+	height: 678px;
+}
+#Blog{
+	height: 678px;
+	background-color: #FF3B3F;
+}
+#Contact{
+	height: 678px;
+	background-color: #EFEFEF;
+}
+#Feedback{
+	height: 678px;
+	background-color: #CAEBF2;
+}
+#top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+footer{
+	height: 100px;
+}
+.header-top{
+	padding-top:40px;
+
+}
